@@ -10,7 +10,7 @@ export const Main = () => {
 
               <div className="text-center">
                   <div className="flex justify-center mb-16">
-                      <img src="../assets/image/home-img.png" alt="Francisco Roberto Figueroa Castañeda"/>
+                      <img src="image/profile.jpg" alt="Francisco Roberto Figueroa Castañeda"/>
                   </div>
 
                   <h6 className="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">Francisco Roberto Figueroa Castañeda</h6>

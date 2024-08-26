@@ -1,3 +1,4 @@
+import { IconLinkedin, IconGithub } from './icons'
 
 export const Footer = () => {
   return (
@@ -11,30 +12,16 @@ export const Footer = () => {
                   <p className="font-normal text-gray-400 text-md md:text-lg mb-20">I’m not currently taking on new client work but feel free to contact me for any other inquiries.</p>
 
                   <div className="flex items-center justify-center space-x-8">
-                      <a href="#" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                          LinkedIn
+                      <a href="https://www.linkedin.com/in/roberto-figueroa--353540160/" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                           
+                          <IconLinkedin width='80px' height='120px' />
                       </a>
 
-                      <a href="#" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                          <i data-feather="dribbble" className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                      <a href="https://www.linkedin.com/in/roberto-figueroa--353540160/" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                          
+                          <IconGithub width='80px' height='120px' />
                       </a>
 
-                      <a href="#" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                          <i data-feather="facebook" className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
-                      </a>
-
-                      <a href="#" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                          <i data-feather="codepen" className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
-                      </a>
-
-                      <a href="#" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                          <i data-feather="at-sign" className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
-                      </a>
-
-                      <a href="#" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                          <i data-feather="instagram" className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
-                      </a>
                   </div>
               </div>
 
