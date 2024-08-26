@@ -1,4 +1,4 @@
-import './App.css'
+
 import { Main, Resources, Portfolio, Education, Experience, Projects, Brands, Footer} from './components';
 
 
@@ -8,11 +8,12 @@ function App() {
     <>
       <Main/>
       <Resources />
+      {/* Languages */}
       <Portfolio />
       <Experience />
       <Projects />
-      <Education />
       <Brands />
+      <Education />
       <Footer />
     </>
   )
