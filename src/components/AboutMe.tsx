@@ -28,6 +28,38 @@ export const AboutMe = () => {
                     &nbsp;<span className="text-sky-300">Docker</span>&nbsp;and 
                     &nbsp;<span className="text-green-400">Nodejs</span>&nbsp; working to achieve fast and reliable services.
                 </p>
+                <p className="text-2xl mt-4">
+                    Throughout my career, I have developed diverse web platforms for various sectors, including:
+                </p>
+                <ul className="mt-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                    <li className="ml-10">
+                        <span className="font-bold text-gray-700">Logistics and Administrative Management:</span>&nbsp;
+                        Created platforms for document organization and administrative report generation (PDF and Excel).
+                    </li>
+                    <li className="ml-10">
+                        <span className="font-bold text-gray-700">Education and Training:</span>&nbsp;
+                        Developed educational tools and training management systems.
+                    </li>
+                    <li className="ml-10">
+                        <span className="font-bold text-gray-700">Warehouse and Cargo Management:</span>&nbsp;
+                        Implemented systems for warehouse management and cargo transportation logbook management.
+                    </li>
+                    <li className="ml-10">
+                        <span className="font-bold text-gray-700">Industrial Waste Management:</span>&nbsp;
+                        Designed solutions for managing industrial waste processes.
+                    </li>
+                    <li className="ml-10">
+                        <span className="font-bold text-gray-700">Tickets Sales:</span>&nbsp;
+                        Implemented and maintained high-demand websites adapting availability systems and creating new features to boost ticket sales and add-ons.
+                    </li>
+                    <li className="ml-10">
+                        <span className="font-bold text-gray-700">Tips and grants:</span>&nbsp;
+                        Developed an API REST to register the tips and grants of the Walt Disney Parks cast
+                        members, tracking different movements along all the restaurants and hotels facilitating the administration
+                        of these incomes.
+                    </li>
+
+                </ul>    
             </div>
 
 
