@@ -1,5 +1,15 @@
 
-import { Main, Resources, Skills, AboutMe, Education, Experience, Projects, Footer} from './components';
+import {
+    AboutMe,
+    Achievements,
+    Education,
+    Experience,
+    Footer,
+    Main,
+    Projects,
+    Resources,
+    Skills,
+} from './components';
 
 
 function App() {
@@ -12,6 +22,7 @@ function App() {
       <Skills />
       <Experience />
       <Projects />
+      <Achievements />
       <Education />
       <Footer />
     </>
