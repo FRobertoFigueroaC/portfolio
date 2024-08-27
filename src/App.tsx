@@ -1,5 +1,5 @@
 
-import { Main, Resources, Portfolio, Education, Experience, Projects, Brands, Footer} from './components';
+import { Main, Resources, Skills, AboutMe, Education, Experience, Projects, Footer} from './components';
 
 
 function App() {
@@ -8,11 +8,10 @@ function App() {
     <>
       <Main/>
       <Resources />
-      {/* Languages */}
-      <Portfolio />
+      <AboutMe />
+      <Skills />
       <Experience />
       <Projects />
-      <Brands />
       <Education />
       <Footer />
     </>
