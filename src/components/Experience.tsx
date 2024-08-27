@@ -1,6 +1,6 @@
 export const Experience = () => {
   return (
-      <section className="py-10 md:py-16">
+      <section className="px-4 md:px-8 lg:px-12">
 
           <div id="experience" className="w-full flex flex-col">
               <div className="w-full flex flex-col my-12">

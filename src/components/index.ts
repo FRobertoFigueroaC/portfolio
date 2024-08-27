@@ -1,6 +1,7 @@
 export * from './AboutMe'
 export * from './Achievements'
 export * from './Brands'
+export * from './ByHobby'
 export * from './Education'
 export * from './Experience'
 export * from './Footer'
