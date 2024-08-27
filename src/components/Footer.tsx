@@ -7,17 +7,17 @@ export const Footer = () => {
           <div className="container max-w-screen-xl mx-auto px-4">
 
               <div className="text-center">
-                  <h1 className="font-medium text-gray-700 text-4xl md:text-5xl mb-5">Testimonial</h1>
-
-                  <p className="font-normal text-gray-400 text-md md:text-lg mb-20">I’m not currently taking on new client work but feel free to contact me for any other inquiries.</p>
+                  {/* <h1 className="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Contact</h1> */}
 
                   <div className="flex items-center justify-center space-x-8">
-                      <a href="https://www.linkedin.com/in/roberto-figueroa--353540160/" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                      <a href="https://www.linkedin.com/in/roberto-figueroa--353540160/" target="_blank"
+                        className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                           
                           <IconLinkedin width='80px' height='120px' />
                       </a>
 
-                      <a href="https://www.linkedin.com/in/roberto-figueroa--353540160/" className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                      <a href="https://github.com/FRobertoFigueroaC" target="_blank"
+                        className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                           
                           <IconGithub width='80px' height='120px' />
                       </a>
